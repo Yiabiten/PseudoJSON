@@ -1,0 +1,9 @@
+language: csharp
+solution: PseudoJSON.sln
+
+install:
+  - sudo apt-get install nunit-console
+  - nuget restore PseudoJSON.sln
+
+script:
+  - xbuild PseudoJSON.sln
