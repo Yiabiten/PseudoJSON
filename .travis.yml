@@ -1,10 +1,10 @@
 language: csharp
 solution: PseudoJSON.sln
 
-sudo: false
+sudo: true
 
 install:
-  - apt-get install nunit-console
+  - sudo apt-get install nunit-console
   - nuget restore PseudoJSON.sln
 
 script:
