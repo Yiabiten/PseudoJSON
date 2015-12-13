@@ -26,7 +26,7 @@ namespace Composite
             }
 
             rt.Add(rtt);
-            Console.WriteLine(rt.Print(-41))//;
+            Console.WriteLine(rt.Print(-41));
             Console.ReadKey();
         }
     }
