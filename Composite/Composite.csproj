@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calc.cs" />
     <Compile Include="Elements\BasicNode.cs" />
     <Compile Include="Elements\CompoundNode.cs" />
     <Compile Include="Elements\Node.cs" />
